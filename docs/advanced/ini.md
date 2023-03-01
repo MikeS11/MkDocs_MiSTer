@@ -41,7 +41,9 @@ This is useful for things like hybrid cores that can play multiple systems. For 
 
 `forced_scandoubler` - VGA output will always run in 31kHz mode (scandoubled) if this setting is turned on, useful for computer CRT's.
 
-`ypbpr` - Changes the VGA output to a YPbPr signal.
+`vga_mode` - Changes the VGA output to rgb, ypbpr, svideo, cvbs. vga_mode=rgb is default
+
+`ntsc_mode` - Only for S-Video and CVBS vga_mode. 0 - normal NTSC, 1 - PAL-60, 2 - PAL-M.
 
 `composite_sync` - Sends the sync signal on Hsync over VGA output, needed for certain configurations.
 
